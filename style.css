@@ -1,0 +1,139 @@
+  body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+  }
+
+  .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+  .sidebar a.active {
+    background-color: black;
+    color: white;
+  }
+
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+
+    .sidebar a {
+      float: left;
+    }
+
+    div.content {
+      margin-left: 0;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+
+  .apj,.his,.sig,.early,.edu,.ach,.ins,.Qt,.Leg,.Pre{
+    background-color:black;
+    color: white;
+    
+  }
+  
+  .content h1,h3{
+    text-align: center;
+  }
+
+  .img-responsive {
+    display: block;
+    height: 400px;
+    width: 350px;
+    margin: 0 auto;
+  }
+
+  .Image {
+    padding: 10px;
+  }
+
+  .imgs-responsive {
+    display: block;
+    height: 300px;
+    width: 350px;
+    margin: 0 auto;
+  }
+
+  .imge-responsive {
+    display: block;
+    height: 450px;
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  .imgg-responsive {
+    display: block;
+    height: 350px;
+    width: 500px;
+    margin: 0 auto;
+  }
+
+ .imgm-responsive {
+    display: block;
+    height: 350px;
+    width: 500px;
+    margin: 0 auto;
+  }
+
+  .imgi-responsive {
+    display: block;
+    height: 300px;
+    width: 350px;
+    margin: 0 auto;
+  }
+
+
+  .Images {
+    padding: 10px;
+    display:flex;
+    flex-direction: row;
+  }
+
+  .imggg-responsive {
+    display: block;
+    height: 250px;
+    width: 350px;
+    margin: 0 auto;
+  }
+
+  .imgge-responsive {
+    display: block;
+    height: 250px;
+    width: 350px;
+    margin: 0 auto;
+  }
+
+
